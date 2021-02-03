@@ -1,0 +1,5 @@
+input#name
+//input[@name="secondname"]
+input.em
+//input[@my-data-type="phone-n"]
+//input[contains(@class, "ad")]
