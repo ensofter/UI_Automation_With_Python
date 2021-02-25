@@ -10,7 +10,7 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope="function")
 def browser(request):
-    user_language = request.config.getoption("language")
+    user_language = request.config.getoption("language").lower()
     options = Options()
     options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
     options.add_argument("--start-maximized")
