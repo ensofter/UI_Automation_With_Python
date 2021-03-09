@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 def pytest_addoption(parser):
     parser.addoption(
         '--language', action='store',
-        default='ru',
+        default='en-gb',
         help="Choose language: ru is default"
     )
 
