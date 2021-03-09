@@ -18,6 +18,7 @@ def browser(request):
     options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
     options.add_argument("--start-maximized")
     browser = webdriver.Chrome(options=options)
+    browser.implicitly_wait(10)
     browser.language = user_language
     print(f"\nstart chrome browser for test with default language - {user_language}..")
     yield browser
