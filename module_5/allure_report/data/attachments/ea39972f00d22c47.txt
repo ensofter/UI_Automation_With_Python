@@ -1,0 +1,5 @@
+
+start chrome browser for test with default language - en-gb..
+No second alert presented
+
+quit browser..

@@ -70,4 +70,3 @@ class ProductPage(BasePage):
         basket_total_coast_message = self.get_shopping_cart_total_coast_message()
         assert product_coast_from_page == basket_total_coast_message, \
             f"Expected {product_coast_from_page}, but got {basket_total_coast_message}"
-

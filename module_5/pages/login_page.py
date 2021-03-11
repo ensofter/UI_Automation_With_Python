@@ -13,7 +13,6 @@ class LoginPage(BasePage):
         self.should_be_register_button()
 
     def should_be_login_url(self):
-        print('!!!!!!!!!!!!!!!!!!!!!!!', self.browser.current_url)
         assert "login" in self.browser.current_url, "Current url doesn't have 'login' in url"
 
     def should_be_login_form(self):
