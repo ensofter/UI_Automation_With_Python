@@ -1,4 +1,4 @@
-Страница 1 - регистрации и авторизации 1 - http://selenium1py.pythonanywhere.com/ru/accounts/login/
+Страница 1 - регистрации и авторизаци   и 1 - http://selenium1py.pythonanywhere.com/ru/accounts/login/
 - Регистрация поользователя 1.1
 -- Регистрации нового пользователя 1.1.1
 - Регистрация пользователя 1.2
